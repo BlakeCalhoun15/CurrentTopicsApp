@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed"
-        android:text="Grocery\n\t\t\t\tApp"
+        android:text="@string/grocery_n_t_t_t_tapp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="52sp"
         app:layout_constraintBottom_toBottomOf="parent"
