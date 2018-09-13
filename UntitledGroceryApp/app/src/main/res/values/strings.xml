@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Untitled Grocery App</string>
+    <string name="grocery_app">Grocery App</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="button_login">Login</string>
+    <string name="no_account">Don\'t have an account?</string>
+</resources>
