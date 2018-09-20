@@ -1,4 +1,0 @@
-#Wed Sep 19 13:26:42 CDT 2018
-base.0=/Users/Lyra/AndroidStudioProjects/CurrentTopicsApp-F-azure-setup/UntitledGroceryApp_new/UntitledGroceryApp/app/build/intermediates/transforms/dexMerger/debug/10
-path.0=classes.dex
-renamed.0=classes.dex
