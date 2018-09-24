@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 public class Login extends AppCompatActivity {
 
+    SQLConnection sqlConnection = new SQLConnection();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,5 +30,26 @@ public class Login extends AppCompatActivity {
             }
         });
 
+        String userEmail = editTextEmail.getText().toString();
+        String userPassword = editTextPassword.getText().toString();
+
+        buttonLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //create the intent for the menu activity
+
+
+
+
+
+            }
+        });
+
+
     }
+
+
+
+
+
 }

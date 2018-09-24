@@ -1,23 +1,42 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Android\\AndroidStudioProjects\\UntitledGroceryApp_0919\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Blake Calhoun\\AndroidStudioProjects\\GroceryApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "D:\\Android\\AndroidStudioProjects\\UntitledGroceryApp_0919\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\Blake Calhoun\\AndroidStudioProjects\\GroceryApp\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "1,12,5,9,8,10,11,2,7,3,4,6",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "16,634,224,456,403,511,572,74,334,126,172,271",
-                        "endColumns": "57,64,46,54,52,60,61,51,68,45,51,62",
-                        "endOffsets": "69,694,266,506,451,567,629,121,398,167,219,329"
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "381"
                     },
                     "to": {
-                        "startLines": "645,646,647,648,649,650,651,652,653,654,655,656",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "56279,56337,56402,56449,56504,56557,56618,56680,56732,56801,56847,56899",
-                        "endColumns": "57,64,46,54,52,60,61,51,68,45,51,62",
-                        "endOffsets": "56332,56397,56444,56499,56552,56613,56675,56727,56796,56842,56894,56957"
+                        "startLines": "664",
+                        "startColumns": "4",
+                        "startOffsets": "57528",
+                        "endLines": "669",
+                        "endColumns": "12",
+                        "endOffsets": "57847"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Blake Calhoun\\AndroidStudioProjects\\GroceryApp\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "157,57,105",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "198,99,151"
+                    },
+                    "to": {
+                        "startLines": "153,154,155",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "7704,7750,7797",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "7745,7792,7843"
                     }
                 },
                 {
@@ -78,39 +97,20 @@
                     }
                 },
                 {
-                    "source": "D:\\Android\\AndroidStudioProjects\\UntitledGroceryApp_0919\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\Blake Calhoun\\AndroidStudioProjects\\GroceryApp\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "373"
+                        "startLines": "1,12,5,9,8,10,11,2,7,3,4,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "17,646,229,465,411,521,583,76,341,129,176,277",
+                        "endColumns": "57,64,46,54,52,60,61,51,68,45,51,62",
+                        "endOffsets": "70,706,271,515,459,577,640,123,405,170,223,335"
                     },
                     "to": {
-                        "startLines": "664",
-                        "startColumns": "4",
-                        "startOffsets": "57528",
-                        "endLines": "669",
-                        "endColumns": "12",
-                        "endOffsets": "57847"
-                    }
-                },
-                {
-                    "source": "D:\\Android\\AndroidStudioProjects\\UntitledGroceryApp_0919\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "153,55,102",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "194,97,148"
-                    },
-                    "to": {
-                        "startLines": "153,154,155",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "7704,7750,7797",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "7745,7792,7843"
+                        "startLines": "645,646,647,648,649,650,651,652,653,654,655,656",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "56279,56337,56402,56449,56504,56557,56618,56680,56732,56801,56847,56899",
+                        "endColumns": "57,64,46,54,52,60,61,51,68,45,51,62",
+                        "endOffsets": "56332,56397,56444,56499,56552,56613,56675,56727,56796,56842,56894,56957"
                     }
                 },
                 {
