@@ -23,7 +23,7 @@ public class SQLConnection {
         String dbEmail = "";
         String dbPassword =  "";
 
-        String SQL = "select userEmail, [password] from CurrentTopicsDB.user_information where userEmail = " + userEmail;
+        String SQL = "select user_email, [password] from CurrentTopicsDB.user_information where userEmail = " + userEmail;
         Class.forName(name);
         conn = DriverManager.getConnection(url);
 
@@ -32,16 +32,33 @@ public class SQLConnection {
 
         while (resultSet.next()) {
 
-            dbEmail = resultSet.getNString("userEmail");
-            dbPassword = resultSet.getNString("password");
+            dbEmail = resultSet.getString("user_email");
+            dbPassword = resultSet.getString("password");
 
         }
 
-        if
+        if (userEmail.equals(dbEmail) && userPassword.equals(dbPassword)){
+
+            validInformation = true;
+
+        }
 
         close();    
 
         return validInformation;
+    }
+
+    public static void addNewUsers(String userEmail,String firstName,String lastName, String userPassword) throws Exception {
+
+        String insertSQL = "insert into user_information values('"
+                +userEmail+"','"+firstName+"','"+lastName+"','"+userPassword+"');";
+
+        Class.forName(name);
+        conn = DriverManager.getConnection(url);
+
+        statement = conn.createStatement();
+        statement.executeQuery(insertSQL);
+
     }
 
     public static void close() {

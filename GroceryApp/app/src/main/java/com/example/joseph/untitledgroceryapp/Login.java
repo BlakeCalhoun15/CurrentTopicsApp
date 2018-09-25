@@ -10,8 +10,6 @@ import android.widget.TextView;
 
 public class Login extends AppCompatActivity {
 
-    SQLConnection sqlConnection = new SQLConnection();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +20,8 @@ public class Login extends AppCompatActivity {
         final Button buttonLogin = (Button) findViewById(R.id.buttonLogin);
         final TextView createAccountLink = (TextView) findViewById(R.id.textViewCreateAccount);
 
+        final SQLConnection sqlConnection = new SQLConnection();
+
         createAccountLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -30,26 +30,32 @@ public class Login extends AppCompatActivity {
             }
         });
 
-        String userEmail = editTextEmail.getText().toString();
-        String userPassword = editTextPassword.getText().toString();
+        final String userEmail = editTextEmail.getText().toString();
+        final String userPassword = editTextPassword.getText().toString();
 
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //create the intent for the menu activity
 
+                try {
 
+                    if (sqlConnection.checkDatabaseForUserInfo(userEmail,userPassword)){
+                        //create intent for menu activity
+                        //show maybe a "logging in" load screen
+                        //Login.this.startActivity(menuActivity);
+                    } else {
+                        //make the login screen come back up with an error saying either the email
+                        // or password was incorrect
+                    }
 
+                } catch (Exception e){
 
+                }
 
             }
         });
 
 
     }
-
-
-
-
 
 }
