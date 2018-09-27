@@ -19,7 +19,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login" />
-        <activity android:name=".CreateAccount"></activity>
+        <activity android:name=".CreateAccount" />
+        <activity android:name=".Settings" />
+        <activity android:name=".ViewAccount" />
+        <activity android:name=".ChangePassword"></activity>
     </application>
 
 </manifest>

@@ -11,4 +11,13 @@
     <string name="create_account_password">Password</string>
     <string name="create_account_vpassword">Password</string>
     <string name="button_create_account">Create Account</string>
+    <string name="user_information">User Information</string>
+    <string name="email">Email:</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="change_password">Change password</string>
+    <string name="old_password">Enter old password</string>
+    <string name="new_password">Enter new password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="create_password">Create Password</string>
 </resources>
