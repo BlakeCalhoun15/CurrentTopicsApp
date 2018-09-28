@@ -647,9 +647,11 @@
     <string name="button_create_account">Create Account</string>
     <string name="button_login">Login</string>
     <string name="create_account_email">Email</string>
-    <string name="create_account_name">Name</string>
+    <string name="create_account_first_name">First Name</string>
+    <string name="create_account_last_name">Last Name</string>
     <string name="create_account_password">Password</string>
     <string name="create_account_vpassword">Password</string>
+    <string name="forgot_password">Forgot password?</string>
     <string name="grocery_app">Grocery App</string>
     <string name="grocery_n_t_t_t_tapp">Grocery \t\t\t\tApp</string>
     <string name="login_email">Email</string>
