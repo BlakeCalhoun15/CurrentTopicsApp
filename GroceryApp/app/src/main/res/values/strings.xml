@@ -4,7 +4,7 @@
     <string name="login_email">Email</string>
     <string name="login_password">Password</string>
     <string name="button_login">Login</string>
-    <string name="no_account">Don\'t have an account?</string>
+    <string name="no_account_link">Don\'t have an account?</string>
     <string name="grocery_n_t_t_t_tapp">Grocery \t\t\t\tApp</string>
     <string name="create_account_first_name">First Name</string>
     <string name="create_account_email">Email</string>
@@ -13,4 +13,10 @@
     <string name="button_create_account">Create Account</string>
     <string name="create_account_last_name">Last Name</string>
     <string name="forgot_password">Forgot password?</string>
+    <string name="button_user_information">User Information</string>
+    <string name="change_password_link">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="button_change_password">Change Password</string>
 </resources>
