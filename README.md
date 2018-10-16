@@ -1,3 +1,3 @@
 # CurrentTopicsApp
 
-Test
+Connection to DB working
