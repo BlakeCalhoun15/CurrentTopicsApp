@@ -21,11 +21,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login" />
-        <activity android:name=".CreateAccount"></activity>
-        <activity android:name=".ListMenu"></activity>
-        <activity android:name=".Settings"></activity>
-        <activity android:name=".ViewAccount"></activity>
-        <activity android:name=".ChangePassword"></activity>
+        <activity android:name=".CreateAccount" />
+        <activity android:name=".ListMenu" />
+        <activity android:name=".Settings" />
+        <activity android:name=".ViewAccount" />
+        <activity android:name=".ChangePassword" />
     </application>
 
 </manifest>

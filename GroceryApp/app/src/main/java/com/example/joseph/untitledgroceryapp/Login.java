@@ -19,6 +19,7 @@ import java.sql.Statement;
 public class Login extends AppCompatActivity {
 
     public Connection conn;
+    public static String userAccount;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,10 +47,10 @@ public class Login extends AppCompatActivity {
                 if(editTextEmail == null || editTextPassword == null){
                     //reload activity and say that either email or password were not entered
                 } else {
-                    String userEmail = editTextEmail.getText().toString();
+                    userAccount = editTextEmail.getText().toString();
                     String userPassword = editTextPassword.getText().toString();
 
-                    switch (userLogin(userEmail,userPassword)){
+                    switch (userLogin(userAccount,userPassword)){
                         case 0:
                             Intent listMenuIntent = new Intent(Login.this, ListMenu.class);
                             Login.this.startActivity(listMenuIntent);
@@ -84,7 +85,7 @@ public class Login extends AppCompatActivity {
         try {
             conn = connectionClass();
             if(conn == null){
-
+                z = 1;
             } else {
                 String query =
                         "SELECT user_email,[password] FROM user_information WHERE user_email = '" + userEmail + "'";
