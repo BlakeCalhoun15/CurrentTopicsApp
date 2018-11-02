@@ -36,4 +36,7 @@
     <string name="list1">TextView</string>
     <string name="list2">TextView</string>
     <string name="list3">TextView</string>
+    <string name="title_activity_forget_password">ForgetPassword</string>
+    <string name="confirm_email">Confirm email</string>
+    <string name="enter_account_email">Enter account email</string>
 </resources>
