@@ -7,8 +7,12 @@ import android.app.Activity;
 import android.os.StrictMode;
 import android.support.design.widget.FloatingActionButton;
 import android.view.View;
-import android.widget.TextView;
+//import android.widget.TextView;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 
+import java.util.List;
+import java.util.ArrayList;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -19,6 +23,10 @@ public class ListMenu extends Activity {
 
     public Connection conn;
 
+    List<Product> productList;
+
+    RecyclerView recyclerView;
+
     // Need to rewrite all of this
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,11 +35,51 @@ public class ListMenu extends Activity {
 
         final FloatingActionButton addList = findViewById(R.id.addList);
         final FloatingActionButton settings = findViewById(R.id.settings);
-        final TextView list1 = findViewById(R.id.textView1);
+//        final TextView list1 = findViewById(R.id.textView1);
 
-        String listOne = getLists();
+//        String listOne = getLists();
 
-        list1.setText(listOne);
+//        list1.setText(listOne);
+        //getting the recyclerview from xml
+        recyclerView = findViewById(R.id.listMenu);
+        recyclerView.setHasFixedSize(true);
+        //recyclerView.setAdapter(ProductAdapter(, productList));
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        //initializing the productlist
+        productList = new ArrayList<>();
+        //conn = connectionClass();
+        try {
+            conn = connectionClass();
+
+            if(conn == null){
+                return;
+            }
+            else {
+                String query = "SELECT list_name FROM list WHERE user_email = '" + Login.userAccount + "'";
+                Statement stmt = conn.createStatement();
+                ResultSet rs = stmt.executeQuery(query);
+
+                while(rs.next()) {
+                    productList.add(
+                            new Product(
+                                    Login.userAccount,
+                                    0,
+                                    rs.getString("list_name"),
+                                    ""
+
+
+                            )
+                    );
+                }
+
+                ProductAdapter adapter = new ProductAdapter(this, productList);
+                recyclerView.setAdapter(adapter);
+            }
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+
 
         settings.setOnClickListener(new View.OnClickListener() {
             @Override
