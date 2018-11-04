@@ -71,19 +71,8 @@ public class Login extends AppCompatActivity {
                             break;
                     }
                 }
-
             }
         });//end of setOnClickListener
-
-        //Forgot password?
-        //forgotPasswordLink.setOnClickListener(new View.OnClickListener() {
-        //   @Override
-        //   public void onClick(View v) {
-        //        Intent resetPasswordIntent = new Intent(Login.this, ResetPassword.class);
-        //        Login.this.startActivity(resetPasswordIntent);
-        //    }
-        //});
-
     }//end of onCreate
 
     public int userLogin(String userEmail,String userPassword){

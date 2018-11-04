@@ -12,10 +12,14 @@ import android.widget.EditText;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 
 public class ForgetPassword extends AppCompatActivity {
+
+    public Connection conn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,19 +32,89 @@ public class ForgetPassword extends AppCompatActivity {
         accountEmailConfirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                try {
-                    GMailSender sender = new GMailSender("username@gmail.com", "password");
-                    sender.sendMail("This is Subject",
-                            "This is Body",
-                            "user@gmail.com",
-                            "user@yahoo.com");
-                } catch (Exception e) {
-                    Log.e("SendMail", e.getMessage(), e);
+
+            if(accountEmail == null){
+                //reload activity and say that an email must be entered
+            } else {
+                switch (checkEmail(accountEmail.getText().toString())){
+                    case 0:
+
+                        changePassword(accountEmail.getText().toString());
+
+                        new Thread(new Runnable() {
+                            @Override
+                            public void run() {
+                                try {
+                                    GMailSender sender = new GMailSender(
+                                            "JustListItDEV@gmail.com",
+                                            "AndroidProject111");
+                                    sender.sendMail("Password reset for Just List It",
+                                            "Your new password is PlaceholderPass.",
+                                            "JustListItDEV@gmail.com",
+                                            accountEmail.getText().toString());
+                                } catch (Exception e) {
+                                    Log.e("SendMail", e.getMessage(), e);
+                                }
+                            }
+                        }).start();
+                        Intent emailConfirmIntent = new Intent(ForgetPassword.this,
+                                Login.class);
+                        ForgetPassword.this.startActivity(emailConfirmIntent);
+                        break;
+                    case 1:
+                        break;
+                    case 2:
+                        break;
                 }
-                Intent emailConfirmIntent = new Intent(ForgetPassword.this, Login.class);
-                ForgetPassword.this.startActivity(emailConfirmIntent);
+            }
             }
         });
+    }
+
+    public int checkEmail(String accountEmail){
+
+        int z = 0;
+
+        try {
+            conn = connectionClass();
+            if(conn == null){
+                z = 1;
+            } else {
+                String query =
+                        "SELECT user_email FROM user_information WHERE user_email = '"
+                                + accountEmail + "'";
+                Statement statement = conn.createStatement();
+                ResultSet resultSet = statement.executeQuery(query);
+
+                while (resultSet.next()){
+                    String user_email = resultSet.getString("user_email");
+
+                    if (user_email.equals("")){
+                        z = 2;
+                        /* 2 is the identifier for either:
+                           incorrect email OR email/account not in database
+                        */
+                    }
+                }//end of while
+            }
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+        return z;
+    }//end of checkEmail
+
+    public void changePassword(String accountEmail) {
+
+        try {
+            conn = connectionClass();
+
+            String query = "UPDATE user_information SET [password] = 'PlaceholderPass' " +
+                    "WHERE user_email = '" + accountEmail + "'";
+            Statement statement = conn.createStatement();
+            statement.executeQuery(query);
+        } catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     @SuppressLint("NewApi")
