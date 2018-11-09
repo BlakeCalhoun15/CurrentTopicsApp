@@ -1,4 +1,4 @@
-#Mon Oct 01 09:56:49 CDT 2018
-base.0=/Users/Lyra/CurrentTopicsApp/GroceryApp/app/build/intermediates/transforms/dexMerger/debug/61
+#Wed Nov 07 12:08:45 CST 2018
+base.0=/Users/Lyra/CurrentTopicsApp/GroceryApp/app/build/intermediates/transforms/dexMerger/debug/10
 path.0=classes.dex
 renamed.0=classes.dex
