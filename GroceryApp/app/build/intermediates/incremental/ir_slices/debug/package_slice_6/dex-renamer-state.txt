@@ -1,4 +1,4 @@
-#Wed Nov 07 12:08:46 CST 2018
-base.0=/Users/Lyra/CurrentTopicsApp/GroceryApp/app/build/intermediates/transforms/dexMerger/debug/6
+#Sat Nov 17 16:45:14 CST 2018
+base.0=C\:\\Users\\slade_000\\Documents\\CurrentTopicsApp\\GroceryApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
 path.0=classes.dex
 renamed.0=classes.dex

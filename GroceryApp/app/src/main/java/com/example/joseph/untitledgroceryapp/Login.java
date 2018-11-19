@@ -85,7 +85,7 @@ public class Login extends AppCompatActivity {
                 z = 1;
             } else {
                 String query =
-                        "SELECT user_email,[password] FROM user_information WHERE user_email = '" + userEmail + "'";
+                        "SELECT * FROM user_information WHERE user_email = '" + userEmail + "'";
                 Statement statement = conn.createStatement();
                 ResultSet resultSet = statement.executeQuery(query);
 

@@ -17,7 +17,7 @@
         android:allowBackup="true"
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_foreground"
         android:label=" "
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -32,7 +32,6 @@
         </activity>
         <activity android:name="com.example.joseph.untitledgroceryapp.Login" />
         <activity android:name="com.example.joseph.untitledgroceryapp.CreateAccount" />
-        <activity android:name="com.example.joseph.untitledgroceryapp.ListMenu" />
         <activity android:name="com.example.joseph.untitledgroceryapp.Settings" />
         <activity android:name="com.example.joseph.untitledgroceryapp.ViewAccount" />
         <activity android:name="com.example.joseph.untitledgroceryapp.ChangePassword" />
@@ -43,6 +42,7 @@
         <activity
             android:name="com.example.joseph.untitledgroceryapp.NewItem"
             android:theme="@style/AppTheme.NewItem" />
+        <activity android:name="com.example.joseph.untitledgroceryapp.ListMenu" />
         <activity
             android:name="com.microsoft.windowsazure.mobileservices.authentication.RedirectUrlActivity"
             android:exported="true" >

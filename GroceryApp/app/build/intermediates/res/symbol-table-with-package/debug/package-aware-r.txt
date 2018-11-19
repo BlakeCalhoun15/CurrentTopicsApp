@@ -606,8 +606,11 @@ color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
 color colorAccent
+color colorBlue
 color colorPrimary
 color colorPrimaryDark
+color colorSecondary
+color colorWhite
 color design_bottom_navigation_shadow_color
 color design_default_color_primary
 color design_default_color_primary_dark
@@ -1000,6 +1003,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable app_icon_for_just_list_it
 drawable avd_hide_password
 drawable avd_show_password
 drawable design_bottom_navigation_item_background
@@ -1012,9 +1016,13 @@ drawable drawer_shadow
 drawable ic_drawer
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_logout_black_24dp
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_profile_black
+drawable ic_settings_black_24dp
+drawable ic_sidebar_menu_icon
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1053,7 +1061,6 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_divider
-id action_example
 id action_image
 id action_menu_divider
 id action_menu_presenter
@@ -1109,6 +1116,7 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id drawer
 id editTextEmail
 id editTextFirstName
 id editTextItemName
@@ -1142,6 +1150,8 @@ id icon_group
 id ifRoom
 id image
 id imageView
+id imageView2
+id imageView3
 id info
 id invisible
 id italic
@@ -1155,6 +1165,7 @@ id listMenu
 id listMode
 id listOfItems
 id list_item
+id logout
 id masked
 id media_actions
 id message
@@ -1165,8 +1176,8 @@ id mtrl_internal_children_alpha_tag
 id multiply
 id navigation_header_container
 id never
-id newPassowrdConfirm
 id newPassword
+id newPasswordConfirm
 id none
 id normal
 id notification_background
@@ -1215,6 +1226,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id sideMenuNavView
 id smallLabel
 id snackbar_action
 id snackbar_text
@@ -1284,6 +1296,7 @@ id userName
 id userNameLabel
 id userPassword
 id userPasswordLabel
+id viewProfile
 id view_offset_helper
 id visible
 id withText
@@ -1360,6 +1373,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout header
 layout layout_products
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
@@ -1382,10 +1396,13 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu drawermenu
 menu global
-menu side_bar
+menu menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+mipmap ic_profile_picture
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1437,6 +1454,7 @@ string button_new_item
 string change_password
 string character_counter_content_description
 string character_counter_pattern
+string close
 string confirm_email
 string confirm_new_password
 string create_account_email
@@ -1469,6 +1487,7 @@ string new_item_quantity
 string new_password
 string no_account
 string old_password
+string open
 string password
 string password_toggle_content_description
 string path_password_eye
