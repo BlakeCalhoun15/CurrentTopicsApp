@@ -1,269 +1,269 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:2:1-39:12
-MERGED from [com.android.support:design:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\b96697b5201140a8579874186aee6e32\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\e9cf74e2cd2b4b557f22db1a7d94829b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\834daf6270283f60a53ad7474c3c0e2c\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\3534abc6a84707bcaad7f6cc4f7adc03\AndroidManifest.xml:17:1-22:12
-MERGED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:2:1-33:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\f9ded6c3bcfaca37c583ce06ff326935\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\c527b6f36d60ef3487c63692ccd4508d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\257ec5ce4714b25cbe22e1032aff27c6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\1067b6d17846d02729b55a4b3ce2832a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\83fa3e878b21052e98ac92ae1e732c4f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\712c15701c42f2a221b1aabb1e791edc\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\b8077d6eed29ce2aac1b0a59df6c6d6c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\f046b9dc1bb0ef787857903f61589219\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\8286ace7a03a5268d77a2640d6038eea\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\9f95253cfd3408056b957e6fc732821c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\ae2e1e747b8e713818ed3a1868eb8580\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\0cf87d7ec1b1cd7a2a7fdfe79f898016\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\acb47c42c0e0adbffaa5979521730004\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\e20a05f940121bdd2a59b30564d9d699\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\335d60938c7a1487cb6289087384bb3f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\4b6eb53d5110b3dbec274290132b26a3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a38dff0191bb6c8f5c00d4363a1420ee\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9b244e717af6d31ade437b2e0088fc33\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\cf698e2dc9fcfc03fd765b24095fe914\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\044206bcc0e37acf265c8843ea5bbc26\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\3258d6e650dc9d81b283fd0d6e37d8d7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\70c556c5341af8d6773691198adf5e89\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\9a7a47eebeaccb4b3b9481d946c5a65b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a440f620a20d779023066c932dfd1197\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\d98640ef445d4248e072be342300c770\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\17d7b1db791b850e59c46f2f3f9c0c3c\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\6225059b072458f1750be1a4b17f5a12\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\ea6a06d9b201f3f70a2a294e2ebc2cbc\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f9e12ed9269c6321fbf7f4bf9b8e67d1\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:2:1-39:12
+ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:2:1-39:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\918c7bc2b4f93ab7fefda0a80bb06045\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\cd04aa79f8e70a3dd010cf3b08634f5c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e785e803f461ad27a6b7c7a5154e9c33\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\2f043eb665b1c877834cf9501595c837\AndroidManifest.xml:17:1-22:12
+MERGED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:2:1-33:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\bca31c481b76248ac9fd436056136c0c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\789a1d08426a25ab5c74341ceea7c85a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\a08210e914bd6536714430d5ca82c2f6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\2896ce01b9fbcd0aa4326d8159b83844\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\035d4d8bbb1722680add4e05a9999346\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\2c0a65f59360f20f8fa72ed896a06bdd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\8c2933e71029476f4b59c494b264549d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\9cc331a5d8201fb8079b19eb33879fe4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\08425f4cca880846697605c4ee78570d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\5104db1b6900d7f37f254ca3265e1d85\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\303aa15e4082ec8089f454eea91129b8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\59c39476b04248dc95c0c6275f36abf5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\f7efb1de5bc900c07ae3c15b13247fd6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\28b70773071e6635b013f40c8d631134\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\8d8317f46d13758c7355b096a1e44ec3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\f39fdbd1cad1195a2c78eb0e2d3d29e7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b4e949d5097b1d7b11ff2d6af53710d6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\8f23ca104f6d40541fef2e8bf5dcd9aa\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\fdcd4cf2875a6df4fa000b2c9c46a407\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\f78ee373bb2b7de4a7d2e814a9976ded\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\0f8b28a9e0da026a0cc64155a1bb53ee\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\14c8ea9e8d863b4d9362b2977f842794\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\bd610a31d05a8c779eb0f15dd0d9bcec\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\fe0a97a22918a6403f5b1d242344bf17\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\5159573e9da5f022a5f6ce25f1d2e37b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\04e924788b8e215bcac30bed65925338\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\89ba63b1216e333dec8957e70dd61cf2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\d516289643a467da3ea6e5fe1b7f9c99\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\477768774706c3c634300f4cb7a1712d\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:2:1-39:12
 	package
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:3:5-52
-		INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:3:5-52
+		INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:2:1-39:12
-		INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:2:1-39:12
-		INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:6:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:7:5-76
+ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:7:5-76
 	android:name
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:7:22-73
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:7:22-73
 application
-ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:10:5-37:19
-MERGED from [com.android.support:design:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\b96697b5201140a8579874186aee6e32\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\b96697b5201140a8579874186aee6e32\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\834daf6270283f60a53ad7474c3c0e2c\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\834daf6270283f60a53ad7474c3c0e2c\AndroidManifest.xml:9:5-20
-MERGED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:11:5-31:19
-MERGED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:11:5-31:19
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a38dff0191bb6c8f5c00d4363a1420ee\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a38dff0191bb6c8f5c00d4363a1420ee\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9b244e717af6d31ade437b2e0088fc33\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9b244e717af6d31ade437b2e0088fc33\AndroidManifest.xml:22:5-23:19
+ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:10:5-37:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\918c7bc2b4f93ab7fefda0a80bb06045\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\918c7bc2b4f93ab7fefda0a80bb06045\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e785e803f461ad27a6b7c7a5154e9c33\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e785e803f461ad27a6b7c7a5154e9c33\AndroidManifest.xml:9:5-20
+MERGED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:11:5-31:19
+MERGED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:11:5-31:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b4e949d5097b1d7b11ff2d6af53710d6\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b4e949d5097b1d7b11ff2d6af53710d6\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\8f23ca104f6d40541fef2e8bf5dcd9aa\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\8f23ca104f6d40541fef2e8bf5dcd9aa\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a38dff0191bb6c8f5c00d4363a1420ee\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b4e949d5097b1d7b11ff2d6af53710d6\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:13:9-26
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:13:9-26
 	android:roundIcon
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:12:9-54
 	android:allowBackup
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:16:9-40
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:16:9-40
 activity#com.example.joseph.untitledgroceryapp.Startup
-ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:17:9-23:20
+ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:17:19-42
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:17:19-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:21:27-74
 activity#com.example.joseph.untitledgroceryapp.Login
-ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:24:9-43
+ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:24:9-43
 	android:name
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:24:19-40
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:24:19-40
 activity#com.example.joseph.untitledgroceryapp.CreateAccount
-ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:25:9-51
+ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:25:9-51
 	android:name
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:25:19-48
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:25:19-48
 activity#com.example.joseph.untitledgroceryapp.Settings
-ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:26:9-46
+ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:26:9-46
 	android:name
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:26:19-43
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:26:19-43
 activity#com.example.joseph.untitledgroceryapp.ViewAccount
-ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:27:9-49
+ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:27:9-49
 	android:name
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:27:19-46
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:27:19-46
 activity#com.example.joseph.untitledgroceryapp.ChangePassword
-ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:28:9-52
+ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:28:9-52
 	android:name
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:28:19-49
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:28:19-49
 activity#com.example.joseph.untitledgroceryapp.ForgetPassword
-ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:29:9-31:70
+ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:29:9-31:70
 	android:label
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:31:13-67
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:31:13-67
 	android:name
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:30:13-43
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:30:13-43
 activity#com.example.joseph.untitledgroceryapp.ListWithItems
-ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:32:9-51
+ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:32:9-51
 	android:name
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:32:19-48
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:32:19-48
 activity#com.example.joseph.untitledgroceryapp.NewItem
-ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:33:9-35:55
+ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:33:9-35:55
 	android:theme
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:35:13-52
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:35:13-52
 	android:name
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:34:13-36
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:34:13-36
 activity#com.example.joseph.untitledgroceryapp.ListMenu
-ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:36:9-55
+ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:36:9-55
 	android:name
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml:36:19-43
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml:36:19-43
 uses-sdk
-INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\b96697b5201140a8579874186aee6e32\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\b96697b5201140a8579874186aee6e32\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\e9cf74e2cd2b4b557f22db1a7d94829b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\e9cf74e2cd2b4b557f22db1a7d94829b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\834daf6270283f60a53ad7474c3c0e2c\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\834daf6270283f60a53ad7474c3c0e2c\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\3534abc6a84707bcaad7f6cc4f7adc03\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\3534abc6a84707bcaad7f6cc4f7adc03\AndroidManifest.xml:20:5-44
-MERGED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:7:5-9:41
-MERGED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\f9ded6c3bcfaca37c583ce06ff326935\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\f9ded6c3bcfaca37c583ce06ff326935\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\c527b6f36d60ef3487c63692ccd4508d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\c527b6f36d60ef3487c63692ccd4508d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\257ec5ce4714b25cbe22e1032aff27c6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\257ec5ce4714b25cbe22e1032aff27c6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\1067b6d17846d02729b55a4b3ce2832a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\1067b6d17846d02729b55a4b3ce2832a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\83fa3e878b21052e98ac92ae1e732c4f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\83fa3e878b21052e98ac92ae1e732c4f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\712c15701c42f2a221b1aabb1e791edc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\712c15701c42f2a221b1aabb1e791edc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\b8077d6eed29ce2aac1b0a59df6c6d6c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\b8077d6eed29ce2aac1b0a59df6c6d6c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\f046b9dc1bb0ef787857903f61589219\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\f046b9dc1bb0ef787857903f61589219\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\8286ace7a03a5268d77a2640d6038eea\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\8286ace7a03a5268d77a2640d6038eea\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\9f95253cfd3408056b957e6fc732821c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\9f95253cfd3408056b957e6fc732821c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\ae2e1e747b8e713818ed3a1868eb8580\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\ae2e1e747b8e713818ed3a1868eb8580\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\0cf87d7ec1b1cd7a2a7fdfe79f898016\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\0cf87d7ec1b1cd7a2a7fdfe79f898016\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\acb47c42c0e0adbffaa5979521730004\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\acb47c42c0e0adbffaa5979521730004\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\e20a05f940121bdd2a59b30564d9d699\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\e20a05f940121bdd2a59b30564d9d699\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\335d60938c7a1487cb6289087384bb3f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\335d60938c7a1487cb6289087384bb3f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\4b6eb53d5110b3dbec274290132b26a3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\4b6eb53d5110b3dbec274290132b26a3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a38dff0191bb6c8f5c00d4363a1420ee\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\a38dff0191bb6c8f5c00d4363a1420ee\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9b244e717af6d31ade437b2e0088fc33\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9b244e717af6d31ade437b2e0088fc33\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\cf698e2dc9fcfc03fd765b24095fe914\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\cf698e2dc9fcfc03fd765b24095fe914\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\044206bcc0e37acf265c8843ea5bbc26\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\044206bcc0e37acf265c8843ea5bbc26\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\3258d6e650dc9d81b283fd0d6e37d8d7\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\3258d6e650dc9d81b283fd0d6e37d8d7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\70c556c5341af8d6773691198adf5e89\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\70c556c5341af8d6773691198adf5e89\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\9a7a47eebeaccb4b3b9481d946c5a65b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\9a7a47eebeaccb4b3b9481d946c5a65b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a440f620a20d779023066c932dfd1197\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a440f620a20d779023066c932dfd1197\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\d98640ef445d4248e072be342300c770\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\d98640ef445d4248e072be342300c770\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\17d7b1db791b850e59c46f2f3f9c0c3c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\17d7b1db791b850e59c46f2f3f9c0c3c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\6225059b072458f1750be1a4b17f5a12\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\6225059b072458f1750be1a4b17f5a12\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\ea6a06d9b201f3f70a2a294e2ebc2cbc\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\ea6a06d9b201f3f70a2a294e2ebc2cbc\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f9e12ed9269c6321fbf7f4bf9b8e67d1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f9e12ed9269c6321fbf7f4bf9b8e67d1\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\918c7bc2b4f93ab7fefda0a80bb06045\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\918c7bc2b4f93ab7fefda0a80bb06045\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\cd04aa79f8e70a3dd010cf3b08634f5c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\cd04aa79f8e70a3dd010cf3b08634f5c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e785e803f461ad27a6b7c7a5154e9c33\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e785e803f461ad27a6b7c7a5154e9c33\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\2f043eb665b1c877834cf9501595c837\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\2f043eb665b1c877834cf9501595c837\AndroidManifest.xml:20:5-44
+MERGED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\bca31c481b76248ac9fd436056136c0c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\bca31c481b76248ac9fd436056136c0c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\789a1d08426a25ab5c74341ceea7c85a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\789a1d08426a25ab5c74341ceea7c85a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\a08210e914bd6536714430d5ca82c2f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\a08210e914bd6536714430d5ca82c2f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\2896ce01b9fbcd0aa4326d8159b83844\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\2896ce01b9fbcd0aa4326d8159b83844\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\035d4d8bbb1722680add4e05a9999346\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\035d4d8bbb1722680add4e05a9999346\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\2c0a65f59360f20f8fa72ed896a06bdd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\2c0a65f59360f20f8fa72ed896a06bdd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\8c2933e71029476f4b59c494b264549d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\8c2933e71029476f4b59c494b264549d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\9cc331a5d8201fb8079b19eb33879fe4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\9cc331a5d8201fb8079b19eb33879fe4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\08425f4cca880846697605c4ee78570d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\08425f4cca880846697605c4ee78570d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\5104db1b6900d7f37f254ca3265e1d85\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\5104db1b6900d7f37f254ca3265e1d85\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\303aa15e4082ec8089f454eea91129b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\303aa15e4082ec8089f454eea91129b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\59c39476b04248dc95c0c6275f36abf5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\59c39476b04248dc95c0c6275f36abf5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\f7efb1de5bc900c07ae3c15b13247fd6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\f7efb1de5bc900c07ae3c15b13247fd6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\28b70773071e6635b013f40c8d631134\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\28b70773071e6635b013f40c8d631134\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\8d8317f46d13758c7355b096a1e44ec3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\8d8317f46d13758c7355b096a1e44ec3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\f39fdbd1cad1195a2c78eb0e2d3d29e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\f39fdbd1cad1195a2c78eb0e2d3d29e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b4e949d5097b1d7b11ff2d6af53710d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\b4e949d5097b1d7b11ff2d6af53710d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\8f23ca104f6d40541fef2e8bf5dcd9aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\8f23ca104f6d40541fef2e8bf5dcd9aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\fdcd4cf2875a6df4fa000b2c9c46a407\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\fdcd4cf2875a6df4fa000b2c9c46a407\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\f78ee373bb2b7de4a7d2e814a9976ded\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\f78ee373bb2b7de4a7d2e814a9976ded\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\0f8b28a9e0da026a0cc64155a1bb53ee\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\0f8b28a9e0da026a0cc64155a1bb53ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\14c8ea9e8d863b4d9362b2977f842794\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\14c8ea9e8d863b4d9362b2977f842794\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\bd610a31d05a8c779eb0f15dd0d9bcec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\bd610a31d05a8c779eb0f15dd0d9bcec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\fe0a97a22918a6403f5b1d242344bf17\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\fe0a97a22918a6403f5b1d242344bf17\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\5159573e9da5f022a5f6ce25f1d2e37b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\5159573e9da5f022a5f6ce25f1d2e37b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\04e924788b8e215bcac30bed65925338\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\04e924788b8e215bcac30bed65925338\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\89ba63b1216e333dec8957e70dd61cf2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\89ba63b1216e333dec8957e70dd61cf2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\d516289643a467da3ea6e5fe1b7f9c99\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\d516289643a467da3ea6e5fe1b7f9c99\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\477768774706c3c634300f4cb7a1712d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\477768774706c3c634300f4cb7a1712d\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\slade_000\Documents\CurrentTopicsApp\GroceryApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Blake Calhoun\AndroidStudioProjects\GroceryApp\app\src\main\AndroidManifest.xml
 activity#com.microsoft.windowsazure.mobileservices.authentication.RedirectUrlActivity
-ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:12:9-23:20
+ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:12:9-23:20
 	android:exported
-		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:14:13-36
+		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:13:13-104
+		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:13:13-104
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:
-ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:15:13-22:29
+ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:15:13-22:29
 action#android.intent.action.VIEW
-ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:16:17-69
+ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:16:25-66
+		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:16:25-66
 category#android.intent.category.DEFAULT
-ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:18:17-76
+ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:18:17-76
 	android:name
-		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:18:27-73
+		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:18:27-73
 category#android.intent.category.BROWSABLE
-ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:19:17-78
+ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:19:17-78
 	android:name
-		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:19:27-75
+		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:19:27-75
 data
-ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:21:17-43
+ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:21:17-43
 	android:scheme
-		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:21:23-40
+		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:21:23-40
 activity#com.microsoft.windowsazure.mobileservices.authentication.CustomTabsIntermediateActivity
-ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:24:9-26:40
+ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:24:9-26:40
 	android:exported
-		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:26:13-37
+		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:25:13-115
+		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:25:13-115
 activity#com.microsoft.windowsazure.mobileservices.authentication.CustomTabsLoginActivity
-ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:27:9-30:47
+ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:27:9-30:47
 	android:launchMode
-		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:30:13-44
+		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:30:13-44
 	android:exported
-		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:29:13-37
+		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\slade_000\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\a6256b723efe303222222c17aeb06673\AndroidManifest.xml:28:13-108
+		ADDED from [com.microsoft.azure:azure-mobile-android:3.4.0] C:\Users\Blake Calhoun\.gradle\caches\transforms-1\files-1.1\azure-mobile-android-3.4.0.aar\d74649dbc598db745d8ab3305dbee53d\AndroidManifest.xml:28:13-108

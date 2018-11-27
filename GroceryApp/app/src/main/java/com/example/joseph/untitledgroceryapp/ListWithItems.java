@@ -1,6 +1,7 @@
 package com.example.joseph.untitledgroceryapp;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.ClipData;
 import android.content.Intent;
 import android.os.StrictMode;
@@ -10,6 +11,7 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.TextView;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -19,7 +21,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListWithItems extends AppCompatActivity {
+public class ListWithItems extends Activity {
 
     public Connection conn;
     RecyclerView recyclerView;
@@ -30,6 +32,8 @@ public class ListWithItems extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_with_items);
 
+        final TextView listName = (TextView) findViewById(R.id.textViewListName);
+        listName.setText(ListMenu.selectedListName);
         final FloatingActionButton addItem = (FloatingActionButton) findViewById(R.id.addItem);
 
         addItem.setOnClickListener(new View.OnClickListener() {
@@ -47,34 +51,28 @@ public class ListWithItems extends AppCompatActivity {
 
         itemsList = new ArrayList<>();
 
-    }
-
-    public String getItems(){
-        String item = "";
-
         try {
             conn = connectionClass();
 
             if(conn == null){
-                return "CONNECTION ERROR";
-            }
-            else {
-                String query = "SELECT item_name FROM item_in_list WHERE list_id = '2'";
+                return;
+            } else {
+                String query = "SELECT item_name FROM items_in_list WHERE list_id = '" + ListMenu.selectedListID + "'";
                 Statement stmt = conn.createStatement();
                 ResultSet rs = stmt.executeQuery(query);
 
-                while(rs.next()){
-                    item = rs.getString("item_name");
+                while(rs.next()) {
+                    itemsList.add(new Item(rs.getString("item_name")));
                 }
+
+                ItemAdapter itemAdapter = new ItemAdapter(this, itemsList);
+                recyclerView.setAdapter(itemAdapter);
             }
         } catch (Exception e){
             e.printStackTrace();
         }
 
-        return item;
-    }//end of getLists
-
-
+    }
 
     @SuppressLint("NewApi")
     public Connection connectionClass(){
@@ -103,3 +101,4 @@ public class ListWithItems extends AppCompatActivity {
     }//end of connectionClass
 
 }
+

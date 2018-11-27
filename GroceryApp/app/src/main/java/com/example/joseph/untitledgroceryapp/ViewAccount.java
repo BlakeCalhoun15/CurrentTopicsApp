@@ -31,11 +31,19 @@ public class ViewAccount extends AppCompatActivity {
         final TextView userPassword = findViewById(R.id.userPassword);
         final TextView changePasswordLink = (TextView) findViewById(R.id.changePasswordLink);
 
+        String securePassword = "";
+
         getUserInfo();
+
+        for (int i = 0; i < user_password.length(); i++) {
+
+            securePassword += "*";
+
+        }
 
         userEmail.setText(user_email);
         userName.setText(user_name);
-        userPassword.setText(user_password);
+        userPassword.setText(securePassword);
 
         changePasswordLink.setOnClickListener(new View.OnClickListener() {
             @Override

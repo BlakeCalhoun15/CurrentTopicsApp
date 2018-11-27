@@ -1262,6 +1262,7 @@ id textView3
 id textViewCreateAccount
 id textViewEmail
 id textViewForgotPassword
+id textViewItemName
 id textViewListName
 id textViewName
 id textViewName2
@@ -1374,6 +1375,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout header
+layout layout_item
 layout layout_products
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include

@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -51,8 +52,9 @@ public class Login extends AppCompatActivity {
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                if(editTextEmail == null || editTextPassword == null){
+                if (editTextEmail.getText().toString().equals("") || editTextPassword.getText().toString().equals("")){
+                    Toast toast = Toast.makeText(getApplicationContext(), "Email or password not entered", Toast.LENGTH_LONG);
+                    toast.show();
                     //reload activity and say that either email or password were not entered
                 } else {
                     userAccount = editTextEmail.getText().toString();
@@ -64,10 +66,16 @@ public class Login extends AppCompatActivity {
                             Login.this.startActivity(listMenuIntent);
                             break;
                         case 1:
+                            Toast connectionToast = Toast.makeText(getApplicationContext(), "No connection", Toast.LENGTH_LONG);
+                            connectionToast.show();
                             break;
                         case 2:
+                            Toast emailToast = Toast.makeText(getApplicationContext(), "Incorrect email", Toast.LENGTH_LONG);
+                            emailToast.show();
                             break;
                         case 3:
+                            Toast passwordToast = Toast.makeText(getApplicationContext(), "Incorrect password", Toast.LENGTH_LONG);
+                            passwordToast.show();
                             break;
                     }
                 }

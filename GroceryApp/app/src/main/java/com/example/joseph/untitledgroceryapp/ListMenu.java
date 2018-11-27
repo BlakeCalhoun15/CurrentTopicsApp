@@ -30,8 +30,11 @@ public class ListMenu extends AppCompatActivity {
     public ActionBarDrawerToggle actionBarDrawerToggle;
     public NavigationView navigationView;
 
+    public static String selectedListName = "Grocery";
+    public static int selectedListID = 11;
+
     List<Product> productList;
-    RecyclerView recyclerView;
+    public RecyclerView recyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +49,7 @@ public class ListMenu extends AppCompatActivity {
         actionBarDrawerToggle.syncState();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        navigationView.bringToFront();
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
