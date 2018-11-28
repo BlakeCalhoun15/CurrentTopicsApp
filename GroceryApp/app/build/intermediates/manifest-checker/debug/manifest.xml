@@ -11,10 +11,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-<<<<<<< HEAD
-=======
     <uses-permission android:name="android.permission.INTERNET" />
->>>>>>> f-change-password-functionality
 
     <application
         android:allowBackup="true"
@@ -35,12 +32,6 @@
         </activity>
         <activity android:name="com.example.joseph.untitledgroceryapp.Login" />
         <activity android:name="com.example.joseph.untitledgroceryapp.CreateAccount" />
-<<<<<<< HEAD
-        <activity android:name="com.example.joseph.untitledgroceryapp.ListMenu" />
-        <activity android:name="com.example.joseph.untitledgroceryapp.Settings" />
-        <activity android:name="com.example.joseph.untitledgroceryapp.ViewAccount" />
-        <activity android:name="com.example.joseph.untitledgroceryapp.ChangePassword" />
-=======
         <activity android:name="com.example.joseph.untitledgroceryapp.Settings" />
         <activity android:name="com.example.joseph.untitledgroceryapp.ViewAccount" />
         <activity android:name="com.example.joseph.untitledgroceryapp.ChangePassword" />
@@ -52,7 +43,6 @@
             android:name="com.example.joseph.untitledgroceryapp.NewItem"
             android:theme="@style/AppTheme.NewItem" />
         <activity android:name="com.example.joseph.untitledgroceryapp.ListMenu" />
->>>>>>> f-change-password-functionality
         <activity
             android:name="com.microsoft.windowsazure.mobileservices.authentication.RedirectUrlActivity"
             android:exported="true" >

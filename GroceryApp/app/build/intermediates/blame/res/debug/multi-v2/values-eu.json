@@ -4,11 +4,7 @@
             "outputFile": "C:\\Users\\Blake Calhoun\\AndroidStudioProjects\\GroceryApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eu\\values-eu.xml",
             "map": [
                 {
-<<<<<<< HEAD
-                    "source": "C:\\Users\\Blake Calhoun\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\c8e0714320ffb378c1f01b364fe320f0\\res\\values-eu\\values-eu.xml",
-=======
                     "source": "C:\\Users\\Blake Calhoun\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\b4e949d5097b1d7b11ff2d6af53710d6\\res\\values-eu\\values-eu.xml",
->>>>>>> f-change-password-functionality
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

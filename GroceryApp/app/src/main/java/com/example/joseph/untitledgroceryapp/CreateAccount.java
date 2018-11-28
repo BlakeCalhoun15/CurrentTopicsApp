@@ -5,16 +5,17 @@ import android.content.Intent;
 import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-
 
 public class CreateAccount extends AppCompatActivity {
 
@@ -37,18 +38,43 @@ public class CreateAccount extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String email = editTextEmail.getText().toString();
+                final String email = editTextEmail.getText().toString();
                 String firstName = editTextFirstName.getText().toString();
                 String lastName = editTextLastName.getText().toString();
                 String password = editTextPassword.getText().toString();
+                String verifyPassword = editTextVerifyPassword.getText().toString();
 
-                switch(createUserAccount(email,firstName,lastName,password)){
-                    case 0:
-                        Intent listMenuIntent = new Intent(CreateAccount.this,ListMenu.class);
-                        CreateAccount.this.startActivity(listMenuIntent);
-                        break;
-                    case 1:
-                        break;
+                if (password.equals(verifyPassword)){
+                    switch(createUserAccount(email,firstName,lastName,password)){
+                        case 0:
+
+                            new Thread(new Runnable() {
+                                @Override
+                                public void run() {
+                                    try {
+                                        GMailSender sender = new GMailSender(
+                                                "JustListItDEV@gmail.com",
+                                                "AndroidProject111");
+                                        sender.sendMail("Just List It account verification",
+                                                "Your account has been created.",
+                                                "JustListItDEV@gmail.com",
+                                                email);
+                                    } catch (Exception e) {
+                                        Log.e("SendMail", e.getMessage(), e);
+                                    }
+                                }
+                            }).start();
+
+                            Login.userAccount = email;
+                            Intent listMenuIntent = new Intent(CreateAccount.this,ListMenu.class);
+                            CreateAccount.this.startActivity(listMenuIntent);
+                            break;
+                        case 1:
+                            break;
+                    }
+                }else{
+                    Toast toast = Toast.makeText(getApplicationContext(), "Passwords do not match", Toast.LENGTH_LONG);
+                    toast.show();
                 }
 
             }
@@ -56,7 +82,7 @@ public class CreateAccount extends AppCompatActivity {
 
     }//end of onCreate
 
-    public int createUserAccount(String userEmail,String firstName,String lastName,String password){
+    public int createUserAccount(String userEmail, String firstName, String lastName, String password){
 
         int z = 0;
 
@@ -106,3 +132,4 @@ public class CreateAccount extends AppCompatActivity {
     }//end of connectionClass
 
 }//end of CreateAccount
+
